@@ -3,14 +3,16 @@ body{
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
-
+    padding: 0%;
+    margin: 0%;
 }
+
 .background_circle_one{
     position: absolute;
-width: 1150px;
-height: 1150px;
-left: 587px;
-top: 0px;
+width: 561px;
+height: 548px;
+left: 900px;
+top: 1000px;
 border-radius: 50%;
 background: #83A474;
 }
@@ -18,9 +20,29 @@ background: #83A474;
 position: absolute;
 width: 1150px;
 height: 1150px;
-bottom: 1150px;
 left: -385px;
 top: 1222px;
 border-radius: 50%;
 background: #83A474;
+}
+.restro_image{
+    position: absolute;
+width: 1440px;
+height: 762px;
+left: 0px;
+top: 0px;
+}
+img{
+    width: 100vw;
+}
+.circleline{
+    box-sizing: border-box;
+
+position: absolute;
+width: 800px;
+height: 800px;
+left: 1109.17px;
+top: 1000px;
+border-radius: 50%;
+border: 6px dashed #666262;
 }
