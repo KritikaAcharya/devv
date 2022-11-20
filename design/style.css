@@ -7,17 +7,18 @@ body{
 }
 .background_circle_one{
     position: absolute;
-width: 1005px;
-height: 1005px;
+width: 1150px;
+height: 1150px;
 left: 587px;
-top: 118px;
+top: 0px;
 border-radius: 50%;
 background: #83A474;
 }
 .background_circle_two{
-    position: absolute;
-width: 1005px;
-height: 1102px;
+position: absolute;
+width: 1150px;
+height: 1150px;
+bottom: 1150px;
 left: -385px;
 top: 1222px;
 border-radius: 50%;
