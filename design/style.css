@@ -150,3 +150,21 @@ color: #000000;
     text-transform: uppercase;
     font-family: 'IM Fell Great Primer SC', serif;
 }
+.btn{
+    position: absolute;
+width: 209px;
+height: 29px;
+left: 1128px;
+top: 319px;
+
+font-family: 'IM FELL Great Primer SC';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+padding:0px 30px 30px 30px;
+}
