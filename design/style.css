@@ -164,6 +164,8 @@ font-size: 32px;
 line-height: 25px;
 text-align: center;
 letter-spacing: 0.05em;
+background-color: rgb(126, 17, 108,0.3);
+border-style: none;
 
 color: #000000;
 padding:0px 30px 30px 30px;
@@ -171,6 +173,26 @@ padding:0px 30px 30px 30px;
 .greeting_cards{
     background-color: #666262;
     opacity: 0.5;
-    color: #7e116c;
+    color: #290423;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
     
+}
+.heading span{
+    position: relative;
+    background-color:rgba(26, 39, 9, 0.4);
+    color: rgb(14, 14, 14);
+    font-size: 64px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    animation: ani1 24s ease-out forwards;
+    align-items: flex-end;
+    overflow: hidden;
+    
+}
+@keyframes first_animation{
+    100%{
+        transform: scale(1.55);
+    }
 }
