@@ -168,3 +168,9 @@ letter-spacing: 0.05em;
 color: #000000;
 padding:0px 30px 30px 30px;
 }
+.greeting_cards{
+    background-color: #666262;
+    opacity: 0.5;
+    color: #7e116c;
+    
+}
