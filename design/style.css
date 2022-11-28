@@ -135,6 +135,7 @@ color: #000000;
     width:100%;
     height:60px; 
     top: 1650px;
+    background-color: rgb(176, 64, 153,0.4);
 }
 .footer__ li{
     float: right;
@@ -171,9 +172,9 @@ color: #000000;
 padding:0px 30px 30px 30px;
 }
 .greeting_cards{
-    background-color: #666262;
+    background-color: #4e0d3a;
     opacity: 0.5;
-    color: #290423;
+    color: #ffffff;
     font-size: 50px;
     padding: 0;
     margin: 0;
@@ -186,13 +187,22 @@ padding:0px 30px 30px 30px;
     font-size: 64px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
-    animation: ani1 24s ease-out forwards;
     align-items: flex-end;
     overflow: hidden;
-    
+    animation: ani 6s 1;
+    animation-iteration-count: infinite;
+    font-family:'Style Script', cursive;   
+    text-transform: capitalize; 
 }
-@keyframes first_animation{
+@keyframes ani{
+    0%{
+        color: #000000;
+        letter-spacing: 8px;
+    }
+    50%{
+        letter-spacing: 15px;
+    }
     100%{
-        transform: scale(1.55);
+        letter-spacing: 8px;
     }
 }
